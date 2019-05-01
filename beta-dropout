@@ -244,7 +244,7 @@ network = NeuralNetwork()
 network.train(data, all_y_trues)
 
 # Make some predictions
-emily = np.array([-7, -3,-1]) #1st test case
-frank = np.array([20, 2,-6])  #2nd test case
-print("1st test case: %f" % network.feedforward(emily,0.6)) 
-print("2nd test case: %f" % network.feedforward(frank,0.3))
+ist = np.array([-7, -3,-1]) #1st test case
+sec = np.array([20, 2,-6])  #2nd test case
+print("1st test case: %f" % network.feedforward(ist,0.6)) 
+print("2nd test case: %f" % network.feedforward(sec,0.3))
